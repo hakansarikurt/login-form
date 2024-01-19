@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(pexels-steve-johnson-1526684.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+
+}
+
+.input-group {
+    position: absolute;
+    left: 110px;
+}
+
+.login {
+    backdrop-filter: blur(15px);
+    border-radius: 80px;
+}
+
+
+
+@media only screen and (max-width: 2000px) {
+    body {
+        background-size: cover;
+        height: 100vh;
+    }
+     
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .input-group {
+            position: absolute;
+            left: 80px;
+        }
+    
+}
+
+
+@media only screen and (max-width: 576px) {
+.input-group {
+        position: absolute;
+        left: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    body {
+            background-size: cover;
+            height: 120vh;
+        }
+}
